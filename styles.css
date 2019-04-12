@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    background-color: #f1f1f1;
+}
+
+.people, .popular, .recent {
+    display: inline-block;
+    width: 380px;
+    max-width: 100%;
+    margin: 0 auto;
+                 
+}
+ .header {
+    display: inline-block;
+    width: 500px;
+    max-width: 80%;
+    margin:0%;
+    margin-left: 10%;
+    color: #c1c1c1;
+    font-size: 12px;
+     
+}
+.list-items {
+    display: inline-block;
+    width: 70%;
+}
+li {
+    display:block;
+    list-style-type: none;
+    background-color: rgba(118,117,128,0.05);
+    width:320px;
+    color: #c2c2c2;
+    padding: 10px;
+    margin:3px;
+    border: 1px transparent;
+    border-radius: 5px;
+       
+}
+li:hover {
+    color: #ec5a62;
+    background-color: #e4e4e6;
+    cursor: pointer;
+}
+.images, .images-1 {
+    margin: 0;
+    padding-right: 10px;
+    border: 1px transparent;
+    display: inline;
+           
+}
+.images {
+    border-radius: 30px;
+}
+input {
+    width: 80%;
+    border: 1px transparent;
+    padding: 30px;
+    font-size: 104px;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    background-color: #f1f1f1;
+    color:#c2c2c2;
+     
+}
+button {
+    border:1px transparent;
+    background-color: #f1f1f1;
+    }
+form img {
+    width: 80px;
+    opacity: 0.7;
+    cursor: pointer;
+}
