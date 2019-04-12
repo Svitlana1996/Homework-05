@@ -4,7 +4,7 @@
  
 body {
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bolder;
     background-color: #f1f1f1;
 }
@@ -14,7 +14,7 @@ body {
     width: 380px;
     max-width: 100%;
     margin: 0 auto;
-                 
+                
 }
  .header {
     display: inline-block;
@@ -42,10 +42,23 @@ li {
     border-radius: 5px;
        
 }
+li a {
+    background-color:rgba(118,117,128,0.05);
+    color: #c2c2c2;
+}
+h3 {
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 0 0 0;
+    color: inherit;
+}
 li:hover {
-    color: #ec5a62;
     background-color: #e4e4e6;
     cursor: pointer;
+}
+h3:hover {
+    color: #ec5a62;
+
 }
 .images, .images-1 {
     margin: 0;
@@ -61,7 +74,7 @@ input {
     width: 80%;
     border: 1px transparent;
     padding: 30px;
-    font-size: 104px;
+    font-size: 100px;
     font-family: Arial, sans-serif;
     font-weight: bolder;
     background-color: #f1f1f1;
